@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Slogans</title>
+
+    <link rel="stylesheet" type="text/css" href="css/tree.css">
+
+</head>
+
+<script src="d3/d3.min.js"></script>
+<script>
+    // ************** Generate the tree diagram	 *****************
+    // base code from http://bl.ocks.org/d3noob/8329447
+
+    function createTree() {
+
+        d3.selectAll("svg > *").remove(); // clear the SVG
+        draw();
+    }
+
+    var nodes, links;
+
+    function draw() {
+
+        d3.csv("data/SlogansClean.csv", function (slogans) {
+            data = slogans;
+
+            d3.json("data/treeData.json", function (error, treeData) {
+                root = treeData[0];
+                update(root);
+            });
+
+            var margin = {
+                    top: 20,
+                    right: 20,
+                    bottom: 20,
+                    left: 20
+                },
+                width = d3.select("#tree").attr("width") - margin.right - margin.left,
+                height = d3.select("#tree").attr("height") - margin.top - margin.bottom;
+
+            var i = 0;
+
+            var tree = d3.layout.tree()
+                .size([height, width]);
+
+            var diagonal = d3.svg.diagonal()
+                .projection(function (d) {
+                    return [d.y, d.x];
+                });
+
+            var svg = d3.select("#tree")
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+            function update(source) {
+                // Compute the new tree layout.
+                nodes = tree.nodes(root).reverse();
+                links = tree.links(nodes);
+
+                // Normalize for fixed-depth.
+                nodes.forEach(function (d) {
+                    d.y = d.depth * 70;
+                });
+
+                // Declare the nodes…
+                var node = svg.selectAll("g.node")
+                    .data(nodes, function (d) {
+                        return d.id || (d.id = ++i);
+                    });
+
+                // Enter the nodes.
+                var nodeEnter = node.enter().append("g")
+                    .attr("class", "node")
+                    .attr("transform", function (d) {
+                        return "translate(" + d.y + "," + d.x + ")";
+                    });
+
+                nodeEnter.append("circle")
+                    .attr("r", 5)
+                    .attr("id", function (d) {
+                        return "I" + d.name;
+                    })
+                    .style("stroke", function (d) {
+                        if (+d.name != 0) {
+                            if (slogans[+d.name - 1].Party == "Democrat") {
+                                return "blue";
+                            } else if (slogans[+d.name - 1].Party == "Republican") {
+                                return "red";
+                            } else {
+                                return "#666";
+                            }
+                        } else {
+                            return "none";
+                        }
+
+                    })
+                    .style("fill", function (d) {
+                        if (+d.name != 0) {
+                            if (slogans[+d.name - 1].Won == "Y") {
+                                if (slogans[+this.id.replace("I", "") - 1].Party == "Democrat") {
+                                    return "blue";
+                                } else if (slogans[+d.name - 1].Party == "Republican") {
+                                    return "red";
+                                } else {
+                                    return "#666";
+                                }
+                            }
+                        } else {
+                            return "none";
+                        }
+                    })
+                    .style("fill-opacity", 0.7)
+                    .on("mouseover", mouseover)
+                    .on("mouseout", mouseout);
+
+                nodeEnter.append("text")
+                    .attr("x", function (d) {
+                        return d.children || d._children ? -13 : 13;
+                    })
+                    .attr("dy", ".35em")
+                    .attr("id", function (d) {
+                        return "I" + d.name;
+                    })
+                    .attr("text-anchor", function (d) {
+                        return d.children || d._children ? "end" : "start";
+                    })
+                    .text(function (d) {
+                        if (+d.name != 0) {
+                            return '"' + slogans[+d.name - 1].Slogan + '"';
+                        } else {
+                            return "";
+                        }
+                    })
+                    .style("fill-opacity", 0.5);
+
+                // Declare the links
+                var link = svg.selectAll("path.link")
+                    .data(links, function (d) {
+                        return d.target.id;
+                    });
+
+                // Enter the links
+                link.enter().insert("path", "g")
+                    .attr("class", "link")
+                    .attr("d", diagonal);
+            };
+
+            // mouseover event handler
+            function mouseover() {
+                var id = this.id;
+                text_id = "text#" + id
+
+                d3.select(this).transition()
+                    .duration(300)
+                    .attr("r", 9)
+                    .style("fill-opacity", 1);
+
+                d3.select(text_id).transition()
+                    .duration(300)
+                    .style("font-size", "20px")
+                    .style("fill-opacity", 1)
+                    .text(function () {
+                        if (+id.replace("I", "") != 0) {
+                            return '"' + slogans[+id.replace("I", "") - 1].Slogan + '" - ' + slogans[+id.replace("I", "") - 1].Candidate + ", " + slogans[+id.replace("I", "") - 1].Year;
+                        } else {
+                            return "";
+                        }
+                    });
+            };
+
+            // mouseout event handler
+            function mouseout() {
+                var id = this.id;
+                text_id = "text#" + id
+
+                d3.select(this).transition()
+                    .duration(300)
+                    .attr("r", 5)
+                    .style("fill-opacity", 0.7);
+
+                d3.select(text_id).transition()
+                    .duration(300)
+                    .style("font-size", "10px")
+                    .style("fill-opacity", 0.5);
+            };
+        });
+    }
+
+    function filter(Category) {
+        d3.csv("data/SlogansClean.csv", function (slogans) {
+            data = slogans;
+
+            if (Category == "same") {
+
+                d3.selectAll("circle").transition()
+                    .duration(300)
+                    .attr("r", function () {
+                        if (+this.id.replace("I", "") != 0 && slogans[+this.id.replace("I", "") - 1].Same == 1) {
+                            return 10;
+                        } else {
+                            return 2;
+                        }
+                    });
+            } else if (Category == "unique") {
+                d3.selectAll("circle").transition()
+                    .duration(300)
+                    .attr("r", function () {
+                        if (+this.id.replace("I", "") != 0 && slogans[+this.id.replace("I", "") - 1].Unique == 1) {
+                            return 10;
+                        } else {
+                            return 2;
+                        }
+                    });
+            } else if (Category == "name") {
+                d3.selectAll("circle").transition()
+                    .duration(300)
+                    .attr("r", function () {
+                        if (+this.id.replace("I", "") != 0 && slogans[+this.id.replace("I", "") - 1].NameIncluded == "Y") {
+                            return 10;
+                        } else {
+                            return 2;
+                        }
+                    });
+            } else if (Category == "rhymes") {
+                d3.selectAll("circle").transition()
+                    .duration(300)
+                    .attr("r", function () {
+                        if (+this.id.replace("I", "") != 0 && slogans[+this.id.replace("I", "") - 1].Rhymes == "Y") {
+                            return 10;
+                        } else {
+                            return 2;
+                        }
+                    });
+            } else if (Category == "america") {
+                d3.selectAll("circle").transition()
+                    .duration(300)
+                    .attr("r", function () {
+                        if (+this.id.replace("I", "") != 0 && slogans[+this.id.replace("I", "") - 1].America == 1) {
+                            return 10;
+                        } else {
+                            return 2;
+                        }
+                    });
+            }
+        })
+    }
+</script>
+
+<body onload="createTree()">
+    <h3 id="header">How Creative is that Presidential Slogan?</h3>
+    <h3 id="subheader">Explore the similarities between presidential slogans from 1840 through today</h3>
+
+    <p>
+        <button class="button" onclick="createTree()">Refresh</button>
+        <button class="button" title="6.7% of slogans are the same or essentially the same" onclick="filter('same')">The Copycats</button>
+        <button class="button" title="5.1% of slogans are comprised of unique terms" onclick="filter('unique')">The Innovative</button>
+        <button class="button" title="23.7% of slogans include the candidate's name" onclick="filter('name')">The Self-reflective</button>
+        <button class="button" title="8.6% of slogans rhyme" onclick="filter('rhymes')">The Rhymers</button>
+        <button class="button" title="12.6% of slogans include the term 'America'" onclick="filter('america')">The Patriots</button>
+        <button class="button" onmouseover="d3.select('#about').transition().delay(100).style('opacity', 1)" onmouseout="d3.select('#about').transition().delay(100).style('opacity', 0)">About</button>
+    </p>
+
+    <svg id="tree" x="0" y="0" width="2900" height="2500"></svg>
+    <div id="about">
+        This graphic explores 198 presidential slogans from the past 176 years. Each node represents a slogan. The node's color corresponds to the candidate's party. If a candidate won their campaign, the node is solid. On mouseover, each node will reveal the candidate's name and the campaign election year.
+        <br>
+        <br> Similarity was determined by applying complete hierarchical clustering to the cosine similarity between each slogan's text. Slogans were tokenized, lemmatized, and assigned a term frequency-inverse document frequency (tf-idf) value and inserted into a document-term matrix. Slogans closest to the left experienced higher overall similarity values.
+    </div>
+
+    <p>Katherine Schinkel, 2016</p>
+
+</body>
+
+</html>

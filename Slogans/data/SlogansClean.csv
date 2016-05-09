@@ -1,0 +1,199 @@
+Year,Slogan,Candidate,NameIncluded,Rhymes,Party,Won,Unique,Same,America
+1840,Log Cabin and Hard Cider,William Henry Harrison,N,N,Whig,Y,0,0,0
+1840,Tippecanoe and Tyler Too,William Henry Harrison,N,Y,Whig,Y,0,1,0
+1844,Who is Polk?,Henry Clay,N,N,Whig,N,0,0,0
+1844,"Hurray, Hurray, the Country's Risin' – Vote for Clay and Frelinghuysen!",Henry Clay,Y,Y,Whig,N,0,0,0
+1844,Fifty-four Forty or Fight,James K. Polk,N,N,Democrat,Y,0,0,0
+1844,Reannexation of Texas and Reoccupation of Oregon,James K. Polk,N,N,Democrat,Y,0,0,0
+1844,"Polk and Texas, Clay and No Texas.",James K. Polk,Y,N,Democrat,Y,0,0,0
+1844,"Polk, Dallas, Texas, Oregon and the Tariff of '42",James K. Polk,Y,N,Democrat,Y,0,0,0
+1848,"Free Soil, Free Labor, Free Speech, and Free Men",Martin Van Buren,N,N,Free Soil,N,0,0,0
+1848,For President of the People,Zachary Taylor,N,N,Whig,Y,0,0,0
+1852,"We Polked you in '44, We shall Pierce you in '52",Franklin Pierce,Y,N,Democrat,Y,0,0,0
+1852,"First In War, First In Peace",Winfield Scott,N,N,Whig,N,0,0,0
+1856,No Sectionalism,James Buchanan,N,N,Democrat,Y,1,0,0
+1856,"Freedom, Freemen and Fremont",John Fremont,Y,N,Republican,N,0,0,0
+1856,America for the Americans,Millard Fillmore,N,N,Whig,N,0,0,1
+1860,Vote yourself a Farm,Abraham Lincoln,N,N,Republican,Y,0,0,0
+1860,Free homes for Free Men,Abraham Lincoln,N,N,Republican,Y,0,0,0
+1860,A House Divided Against Itself Cannot Stand,Abraham Lincoln,N,N,Republican,Y,0,0,0
+1860,"The Constitution and the Union, Now and Forever",John Bell,N,N,Constitutional Union,N,0,0,0
+1860,"Liberty and Union, Now and Forever, One and Inseparable",John Bell,N,N,Constitutional Union,N,0,0,0
+1860,Douglas and Johnson: The Union Now and Forever,Stephen Douglas,Y,N,Democrat,N,0,0,0
+1864,Don't swap horses in midstream,Abraham Lincoln,N,N,Republican,Y,0,1,0
+1868,Let Us Have Peace,Ulysses S. Grant,N,N,Republican,Y,0,0,0
+1868,Vote as You Shot,Ulysses S. Grant,N,N,Republican,Y,0,0,0
+1868,Man from Appomattox,Ulysses S. Grant,N,N ,Republican,Y,0,0,0
+1872,Greeley and Brown - Amnesty,Horace Greeley,Y,N,Democrat,N,0,0,0
+1872,"Liberty, Equality and Fraternity, Universal Amnesty and Impartial Suffrage",Horace Greeley,N,N,Democrat,N,0,0,0
+1872,Grant Us Another Term,Ulysses S. Grant,N,N,Republican,Y,0,0,0
+1876,Tilden or Blood!,Samuel Tilden,Y,N,Democrat,N,0,0,0
+1876,Tilden and Reform,Samuel Tilden,Y,N,Democrat,N,0,0,0
+1880,A Supreme Soldier - A Model President,Winfield Scott Hancock,N,N,Democrat,N,0,0,0
+1884,Man of Destiny,Grover Cleveland,N,N,Democrat,Y,0,0,0
+1884,Grover the Good,Grover Cleveland,Y,N,Democrat,Y,0,0,0
+1884,"Blain, Blain, James G. Blaine, the Continental Liar from the State of Maine",Grover Cleveland,N,Y,Democrat,Y,0,0,0
+1884,Public Office is a Public Trust,Grover Cleveland,N,N,Democrat,Y,0,0,0
+1884,"Ma, Ma, where's my Pa?",James G. Blaine,N,Y,Republican,N,0,0,0
+1888,Rejuvenated Republicanism,Benjamin Harrison,N,N,Republican,Y,1,0,0
+1888,Tippecanoe and Morton Too,Benjamin Harrison,N,Y,Republican,Y,0,1,0
+1888,"Grover, Grover, All is Over",Benjamin Harrison,Y,Y,Republican,Y,0,0,0
+1892,"Grover, Grover, Four More Years of Grover, In He Comes, Out They Go, Then We'll Be in Clover",Grover Cleveland,Y,Y,Democrat,Y,0,0,0
+1896,"Patriotism, Protection,and Prosperity",William McKinley,N,N,Republican,Y,0,0,0
+1896,Advance Agent of Prosperity,William McKinley,N,N,Republican,Y,0,0,0
+1896,Full Dinner Pail,William McKinley,N,N,Republican,Y,0,0,0
+1900,Four more years of the full dinner pail,William McKinley,N,N,Republican,Y,0,0,0
+1900,Let Well Enough Alone,William McKinley,N,N,Republican,Y,0,0,0
+1908,Let the People Rule,William Jennings Bryan,N,N,Democrat,N,0,0,0
+1912,Empty Market Basket,Woodrow Wilson,N,N,Democrat,Y,1,0,0
+1912,New Freedom,Woodrow Wilson,N,N,Democrat,Y,0,0,0
+1916,He kept us out of war,Woodrow Wilson,N,N,Democrat,Y,0,0,0
+1916,"War in Europe, Peace in America",Woodrow Wilson,N,N,Democrat,Y,0,0,1
+1916,"War in the East, Peace in the West, Thank God for Woodrow Wilson",Woodrow Wilson,Y,N,Democrat,Y,0,0,0
+1916,He proved the pen mightier than the sword.,Woodrow Wilson,N,N,Democrat,Y,0,0,0
+1920,Return to normalcy,Warren G. Harding,N,N,Republican,Y,0,0,0
+1920,America First,Warren G. Harding,N,N,Republican,Y,0,0,1
+1920,Harding and Prosperity,Warren G. Harding,Y,N,Republican,Y,0,0,0
+1924,Keep Cool with Coolidge,Calvin Coolidge,Y,N,Republican,Y,0,0,0
+1924,Coolidge or Chaos,Calvin Coolidge,Y,N,Republican,Y,0,0,0
+1928,Who but Hoover?,Herbert Hoover,Y,N,Republican,Y,0,1,0
+1928,"Safety, Solvency, Sobriety",Herbert Hoover,N,N,Republican,Y,1,0,0
+1928,A chicken in every pot and a car in every garage,Herbert Hoover,N,N,Republican,Y,0,0,0
+1932,Happy Days Are Here Again,Franklin D. Roosevelt,N,N,Democrat,Y,0,0,0
+1932,"A New Deal, A New Day",Franklin D. Roosevelt,N,N,Democrat,Y,0,0,0
+1932,Rebuild with Roosevelt,Franklin D. Roosevelt,Y,N,Democrat,Y,0,0,0
+1932,We are turning the corner,Herbert Hoover,N,N,Republican,N,0,0,0
+1936,Defeat the New Deal and Its Reckless Spending,Alfred M. Landon,N,N,Republican,N,0,0,0
+1936,Let's Get Another Deck,Alfred M. Landon,N,N,Republican,N,0,0,0
+1936,Let's Make It a Landon-Slide,Alfred M. Landon,Y,N,Republican,N,0,0,0
+1936,"Life, Liberty, and Landon",Alfred M. Landon,Y,N,Republican,N,0,0,0
+1936,A Gallant Leader,Franklin D. Roosevelt,N,N,Democrat,Y,0,0,0
+1936,Four More Lucky Roosevelt Years,Franklin D. Roosevelt,Y,N,Democrat,Y,0,0,0
+1936,Remember Hoover!,Franklin D. Roosevelt,Y,N,Democrat,Y,0,0,0
+1940,Better A Third Term,Franklin D. Roosevelt,N,N,Democrat,Y,0,0,0
+1940,No Fourth Term Either,Wendell L. Willkie,N,N,Republican,N,0,0,0
+1940,Roosevelt for Ex-President,Wendell L. Willkie,N,N,Republican,N,0,0,0
+1940,There's No Indispensable Man,Wendell L. Willkie,N,N,Republican,N,0,0,0
+1940,We Want Willkie,Wendell L. Willkie,Y,N,Republican,N,0,0,0
+1940,Win with Willkie,Wendell L. Willkie,Y,N,Republican,N,0,0,0
+1940,Learn to Say President Willkie,Wendell L. Willkie,Y,N,Republican,N,0,0,0
+1940,Life begins in '40,Wendell L. Willkie,N,N,Republican,N,0,0,0
+1944,Don't swap horses in midstream,Franklin D. Roosevelt,N,N,Democrat,Y,0,1,0
+1944,We are going to win this war and the peace that follows,Franklin D. Roosevelt,N,N,Democrat,Y,0,0,0
+1944,Win the War Quicker with Dewey and Bricker,Thomas E. Dewey,Y,Y,Republican,N,0,0,0
+1948,I'm just wild about Harry,Harry S. Truman,Y,N,Democrat,Y,0,0,0
+1948,"Pour it on 'em, Harry!",Harry S. Truman,Y,N,Democrat,Y,0,0,0
+1948,"Give 'em Hell, Harry!",Harry S. Truman,Y,N,Democrat,Y,0,0,0
+1948,The Buck Stops Here,Harry S. Truman,N,N,Democrat,Y,0,0,0
+1952,All the Way with Adlai,Adlai Stevenson,Y,Y,Democrat,N,0,0,0
+1952,Madly for Adlai,Adlai Stevenson,Y,Y,Democrat,N,0,0,0
+1952,You Never Had It So Good,Adlai Stevenson,N,N,Democrat,N,0,0,0
+1952,I like Ike,Dwight D. Eisenhower,Y,Y,Republican,Y,0,0,0
+1952,"Korea, Communism, Corruption",Dwight D. Eisenhower,N,N,Republican,Y,1,0,0
+1956,I still like Ike,Dwight D. Eisenhower,Y,Y,Republican,Y,0,0,0
+1956,Peace and Prosperity,Dwight D. Eisenhower,N,N,Republican,Y,0,0,0
+1960,All the Way with JFK,John F. Kennedy,Y,Y,Democrat,Y,0,0,0
+1960,A time for greatness,John F. Kennedy,N,N,Democrat,Y,0,0,0
+1960,We Can Do Better,John F. Kennedy,N,N,Democrat,Y,0,0,0
+1960,Let's Get America Moving Again,John F. Kennedy,N,N,Democrat,Y,0,0,1
+1960,The New Frontier,John F. Kennedy,N,N,Democrat,Y,0,0,0
+1960,Peace without Surrender,Richard Nixon,N,N,Republican,N,0,0,0
+1960,They Understand What Peace Demands,Richard Nixon,N,N,Republican,N,0,0,0
+1964,"In Your Heart, You Know He's Right",Barry Goldwater,N,N,Republican,N,0,0,0
+1964,America Needs A Change,Barry Goldwater,N,N,Republican,N,0,1,1
+1964,The Best Man For The Job,Barry Goldwater,N,N,Republican,N,0,0,0
+1964,"We Want a Choice, Not an Echo",Barry Goldwater,N,N,Republican,N,0,0,0
+1964,All the way with LBJ,Lyndon B. Johnson,Y,Y,Democrat,Y,0,0,0
+1964,"In Your Guts, You Know He's Nuts",Lyndon B. Johnson,N,Y,Democrat,Y,0,0,0
+1968,To Begin Anew,Gene McCarthy,N,N,Democrat,N,0,0,0
+1968,Stand Up For America,George Wallace,N,N,American Independent,N,0,0,1
+1968,"Some People Talk Change, Others Cause It",Hubert Humphrey,N,N,Democrat,N,0,0,0
+1968,Who But Hubert?,Hubert Humphrey,Y,N,Democrat,N,0,1,0
+1968,A Winning Team,Humphrey Muskie,N,N,Democrat,N,0,0,0
+1968,"This time, vote like your whole world depended on it",Richard Nixon,N,N,Republican,Y,0,0,0
+1968,Nixon's the One,Richard Nixon,N,N,Republican,Y,0,0,0
+1972,Come Home America,George McGovern,N,N,Republican,Y,0,0,1
+1972,Nixon Now,Richard Nixon,Y,N,Republican,Y,0,0,0
+1972,"Nixon Now, More than Ever",Richard Nixon,Y,N,Republican,Y,0,0,0
+1976,"Peace, Prosperity and the Public Trust",Gerald Ford,N,N,Republican,N,0,0,0
+1976,He's making us proud again,Gerald Ford,N,N,Republican,N,0,0,0
+1976,Experience Counts,Gerald Ford,N,N,Republican,N,0,0,0
+1976,The Man Who Made Us Proud Again,Gerald Ford,N,N,Republican,N,0,0,0
+1976,Not Just Peanuts,Jimmy Carter,N,N,Democrat,Y,0,0,0
+1976,"A Leader, For a Change",Jimmy Carter,N,N,Democrat,Y,0,0,0
+1976,Return Integrity to the White House,Jimmy Carter,N,N,Democrat,Y,0,0,0
+1976,Vote Gritz and Fritz in '76,Jimmy Carter,N,N,Democrat,Y,0,0,0
+1980,A Solid Man in a Sensitive Job,Jimmy Carter,N,N,Democrat,N,0,0,0
+1980,Are You Better Off Than You Were Four Years Ago?,Ronald Reagan,N,N,Republican,Y,0,0,0
+1980,Let's Make America Great Again,Ronald Reagan,N,N,Republican,Y,0,1,1
+1980,The Time Is Now,Ronald Reagan,N,N,Republican,Y,0,0,0
+1984,It's Morning Again in America,Ronald Reagan,N,N,Republican,Y,0,0,0
+1984,"America Is Back, Standing Tall",Ronald Reagan,N,N,Republican,Y,0,0,0
+1984,Where's the Beef?,Walter Mondale,N,N,Democrat,N,0,0,0
+1984,America Needs A Change,Walter Mondale,N,N,Democrat,N,0,1,1
+1988,"Kinder, Gentler Nation",George H. W. Bush,N,N,Republican,Y,1,0,0
+1988,"Read My Lips, No New Taxes",George H. W. Bush,N,N,Republican,Y,0,0,0
+1988,The Next Frontier,Michael Dukakis,N,N,Democrat,N,0,0,0
+1992,"For People, for a Change",Bill Clinton,N,N,Democrat,Y,0,0,0
+1992,"It's The Economy, Stupid",Bill Clinton,N,N,Democrat,Y,0,0,0
+1992,It's Time to Change America,Bill Clinton,N,N,Democrat,Y,0,0,1
+1992,Putting People First,Bill Clinton,N,N,Democrat,Y,0,0,0
+1992,Don’t stop thinking about tomorrow,Bill Clinton,N,N,Democrat,Y,0,0,0
+1992,Ross for Boss,Ross Perot,Y,Y,Indepedent,N,0,0,0
+1996,Building a bridge to the twenty-first century,Bill Clinton,N,N,Democrat,Y,0,0,0
+1996,A Better Man for a Better America,Bob Dole,N,N,Republican,N,0,0,1
+2000,Leadership for the New Millennium,Al Gore,N,N,Democrat,N,0,0,0
+2000,Prosperity and Progress,Al Gore,N,N,Democrat,N,0,0,0
+2000,Compassionate Conservatism,George W. Bush,N,N,Republican,Y,0,0,0
+2000,Leave No Child Behind,George W. Bush,N,N,Republican,Y,1,0,0
+2004,A Safer World and a More Hopeful America,George W. Bush,N,N,Republican,Y,0,0,1
+2004,"Yes, America can",George W. Bush,N,N,Republican,Y,0,0,1
+2004,Dean for America,Howard Dean,Y,N,Democrat,N,0,1,1
+2004,A Stronger America,John Kerry,N,N,Democrat,N,0,0,1
+2004,Let America Be America Again,John Kerry,N,N,Democrat,N,0,0,1
+2008,Yes We Can,Barack Obama,N,N,Democrat,Y,0,0,0
+2008,Change We Can Believe In.,Barack Obama,N,N,Democrat,Y,0,0,0
+2008,Change.,Barack Obama,N,N,Democrat,Y,0,0,0
+2008,Change We Need.,Barack Obama,N,N,Democrat,Y,0,0,0
+2008,Fired up! Ready to go!,Barack Obama,N,N,Democrat,Y,0,0,0
+2008,Hope,Barack Obama,N,N,Democrat,Y,0,0,0
+2008,"Ready for change, ready to lead",Hillary Clinton,N,N,Democrat,N,0,0,0
+2008,In to Win,Hillary Clinton,N,Y,Democrat,N,0,0,0
+2008,"Working for Change, Working for You",Hillary Clinton,N,N,Democrat,N,0,0,0
+2008,The strength and experience to make change happen,Hillary Clinton,N,N,Democrat,N,0,0,0
+2008,"Big Challenges, Real Solutions: Time to Pick a President",Hillary Clinton,N,N,Democrat,N,0,0,0
+2008,Country First,John McCain,N,N,Republican,N,0,0,0
+2008,"Reform, prosperity and peace",John McCain,N,N,Republican,N,0,0,0
+2008,"People Fighting Back, or We'll fight back",Ralph Nader,N,N,Green,N,0,0,0
+2012,Forward,Barack Obama,N,N,Democrat,Y,1,0,0
+2012,The People's President,Gary Johnson,N,N,Libertarian,N,0,0,0
+2012,A Green New Deal for America,Jill Stein,N,N,Green,N,0,0,1
+2012,Believe in America,Mitt Romney,N,N,Republican,N,0,0,1
+2012,Obama Isn't Working,Mitt Romney,N,N,Republican,N,0,0,0
+2012,Restore Our Future,Mitt Romney,N,N,Republican,N,0,0,0
+2012,Restore America Now,Ron Paul,N,N,Republican,N,0,0,1
+2012,Citizenship Matters,Virgil Goode,N,N,Constitution,N,1,0,0
+2016,Heal. Inspire. Revive.,Ben Carson,N,N,Republican,N,1,0,0
+2016,A Future To Believe In,Bernie Sanders,N,N,Democrat,TBD,0,0,0
+2016,Feel The Bern,Bernie Sanders,Y,N,Democrat,TBD,0,0,0
+2016,"Tanned, Rested, Ready.",Bobby Jindal,N,N,Republican,N,0,0,0
+2016,New Possibilities. Real Leadership.,Carly Fiorina,N,N,Republican,N,0,0,0
+2016,Telling it like it is.,Chris Christie,N,N,Republican,N,0,0,0
+2016,Make America Great Again,Donald Trump,N,N,Republican,TBD,0,1,1
+2016,Hillary For America,Hillary Clinton,Y,N,Democrat,TBD,0,1,1
+2016,Fighting for us,Hillary Clinton,N,N,Democrat,TBD,0,0,0
+2016,I'm With Her,Hillary Clinton,N,N,Democrat,TBD,0,0,0
+2016,Jeb!,Jeb Bush,Y,N,Republican,N,0,0,0
+2016,Jeb can fix it,Jeb Bush,Y,N,Republican,N,0,0,0
+2016,All in for Jeb,Jeb Bush,Y,N,Republican,N,0,0,0
+2016,Right to Rise,Jeb Bush,N,N,Republican,N,0,0,0
+2016,It's in our hands,Jill Stein,N,N,Green,TBD,0,0,0
+2016,Kasich For America,John Kasich,Y,N,Republican,TBD,0,1,1
+2016,A New American Century,Marco Rubio,N,N,Republican,N,0,0,1
+2016,From Hope to Higher Ground,Mike Huckabee,N,N,Republican,N,0,0,0
+2016,Defeat the Washington Machine. Unleash the American Dream.,Rand Paul,N,N,Republican,N,0,0,1
+2016,Courageous Conservatives,Ted Cruz,N,N,Republican,TBD,0,0,0
+2016,Reigniting the Promise of America,Ted Cruz,N,N,Republican,TBD,0,0,1
+2016,TRUSTED,Ted Cruz,Y,N,Republican,TBD,0,0,0
+2016,A Time for Truth,Ted Cruz,N,N,Republican,TBD,0,0,0
+2016,Defeat the Washington Cartel,Ted Cruz,N,N,Republican,TBD,0,0,0
