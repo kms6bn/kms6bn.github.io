@@ -85,14 +85,14 @@ Year,Slogan,Candidate,NameIncluded,Rhymes,Party,Won,Unique,Same,America
 1948,"Pour it on 'em, Harry!",Harry S. Truman,Y,N,Democrat,Y,0,0,0
 1948,"Give 'em Hell, Harry!",Harry S. Truman,Y,N,Democrat,Y,0,0,0
 1948,The Buck Stops Here,Harry S. Truman,N,N,Democrat,Y,0,0,0
-1952,All the Way with Adlai,Adlai Stevenson,Y,Y,Democrat,N,0,0,0
+1952,All the Way with Adlai,Adlai Stevenson,Y,Y,Democrat,N,0,1,0
 1952,Madly for Adlai,Adlai Stevenson,Y,Y,Democrat,N,0,0,0
 1952,You Never Had It So Good,Adlai Stevenson,N,N,Democrat,N,0,0,0
 1952,I like Ike,Dwight D. Eisenhower,Y,Y,Republican,Y,0,0,0
 1952,"Korea, Communism, Corruption",Dwight D. Eisenhower,N,N,Republican,Y,1,0,0
 1956,I still like Ike,Dwight D. Eisenhower,Y,Y,Republican,Y,0,0,0
 1956,Peace and Prosperity,Dwight D. Eisenhower,N,N,Republican,Y,0,0,0
-1960,All the Way with JFK,John F. Kennedy,Y,Y,Democrat,Y,0,0,0
+1960,All the Way with JFK,John F. Kennedy,Y,Y,Democrat,Y,0,1,0
 1960,A time for greatness,John F. Kennedy,N,N,Democrat,Y,0,0,0
 1960,We Can Do Better,John F. Kennedy,N,N,Democrat,Y,0,0,0
 1960,Let's Get America Moving Again,John F. Kennedy,N,N,Democrat,Y,0,0,1
@@ -103,7 +103,7 @@ Year,Slogan,Candidate,NameIncluded,Rhymes,Party,Won,Unique,Same,America
 1964,America Needs A Change,Barry Goldwater,N,N,Republican,N,0,1,1
 1964,The Best Man For The Job,Barry Goldwater,N,N,Republican,N,0,0,0
 1964,"We Want a Choice, Not an Echo",Barry Goldwater,N,N,Republican,N,0,0,0
-1964,All the way with LBJ,Lyndon B. Johnson,Y,Y,Democrat,Y,0,0,0
+1964,All the way with LBJ,Lyndon B. Johnson,Y,Y,Democrat,Y,0,1,0
 1964,"In Your Guts, You Know He's Nuts",Lyndon B. Johnson,N,Y,Democrat,Y,0,0,0
 1968,To Begin Anew,Gene McCarthy,N,N,Democrat,N,0,0,0
 1968,Stand Up For America,George Wallace,N,N,American Independent,N,0,0,1
@@ -128,7 +128,7 @@ Year,Slogan,Candidate,NameIncluded,Rhymes,Party,Won,Unique,Same,America
 1980,Let's Make America Great Again,Ronald Reagan,N,N,Republican,Y,0,1,1
 1980,The Time Is Now,Ronald Reagan,N,N,Republican,Y,0,0,0
 1984,It's Morning Again in America,Ronald Reagan,N,N,Republican,Y,0,0,0
-1984,"America Is Back, Standing Tall",Ronald Reagan,N,N,Republican,Y,0,0,0
+1984,"America Is Back, Standing Tall",Ronald Reagan,N,N,Republican,Y,0,0,1
 1984,Where's the Beef?,Walter Mondale,N,N,Democrat,N,0,0,0
 1984,America Needs A Change,Walter Mondale,N,N,Democrat,N,0,1,1
 1988,"Kinder, Gentler Nation",George H. W. Bush,N,N,Republican,Y,1,0,0
