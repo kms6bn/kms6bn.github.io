@@ -136,7 +136,9 @@
                             return "";
                         }
                     })
-                    .style("fill-opacity", 0.5);
+                    .style("fill-opacity", 0.5)
+                    .on("mouseover", mouseover)
+                    .on("mouseout", mouseout);
 
                 // Declare the links
                 var link = svg.selectAll("path.link")

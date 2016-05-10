@@ -96,15 +96,15 @@ Year,Slogan,Candidate,NameIncluded,Rhymes,Party,Won,Unique,Same,America
 1960,A time for greatness,John F. Kennedy,N,N,Democrat,Y,0,0,0
 1960,We Can Do Better,John F. Kennedy,N,N,Democrat,Y,0,0,0
 1960,Let's Get America Moving Again,John F. Kennedy,N,N,Democrat,Y,0,0,1
-1960,The New Frontier,John F. Kennedy,N,N,Democrat,Y,0,0,0
+1960,The New Frontier,John F. Kennedy,N,N,Democrat,Y,0,1,0
 1960,Peace without Surrender,Richard Nixon,N,N,Republican,N,0,0,0
 1960,They Understand What Peace Demands,Richard Nixon,N,N,Republican,N,0,0,0
-1964,"In Your Heart, You Know He's Right",Barry Goldwater,N,N,Republican,N,0,0,0
+1964,"In Your Heart, You Know He's Right",Barry Goldwater,N,N,Republican,N,0,1,0
 1964,America Needs A Change,Barry Goldwater,N,N,Republican,N,0,1,1
 1964,The Best Man For The Job,Barry Goldwater,N,N,Republican,N,0,0,0
 1964,"We Want a Choice, Not an Echo",Barry Goldwater,N,N,Republican,N,0,0,0
 1964,All the way with LBJ,Lyndon B. Johnson,Y,Y,Democrat,Y,0,1,0
-1964,"In Your Guts, You Know He's Nuts",Lyndon B. Johnson,N,Y,Democrat,Y,0,0,0
+1964,"In Your Guts, You Know He's Nuts",Lyndon B. Johnson,N,Y,Democrat,Y,0,1,0
 1968,To Begin Anew,Gene McCarthy,N,N,Democrat,N,0,0,0
 1968,Stand Up For America,George Wallace,N,N,American Independent,N,0,0,1
 1968,"Some People Talk Change, Others Cause It",Hubert Humphrey,N,N,Democrat,N,0,0,0
@@ -133,7 +133,7 @@ Year,Slogan,Candidate,NameIncluded,Rhymes,Party,Won,Unique,Same,America
 1984,America Needs A Change,Walter Mondale,N,N,Democrat,N,0,1,1
 1988,"Kinder, Gentler Nation",George H. W. Bush,N,N,Republican,Y,1,0,0
 1988,"Read My Lips, No New Taxes",George H. W. Bush,N,N,Republican,Y,0,0,0
-1988,The Next Frontier,Michael Dukakis,N,N,Democrat,N,0,0,0
+1988,The Next Frontier,Michael Dukakis,N,N,Democrat,N,0,1,0
 1992,"For People, for a Change",Bill Clinton,N,N,Democrat,Y,0,0,0
 1992,"It's The Economy, Stupid",Bill Clinton,N,N,Democrat,Y,0,0,0
 1992,It's Time to Change America,Bill Clinton,N,N,Democrat,Y,0,0,1
