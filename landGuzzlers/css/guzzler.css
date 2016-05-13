@@ -1,0 +1,91 @@
+#CAT {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 220px;
+    left: 800px;
+    visibility: hidden;
+}
+
+#HAMSTER {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 220px;
+    left: 800px;
+    visibility: hidden;
+}
+
+#MEDIUM_SIZED_DOG {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 220px;
+    left: 800px;
+    visibility: hidden;
+}
+
+#LARGE_DOG {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 220px;
+    left: 800px;
+    visibility: hidden;
+}
+
+#TOYOTA_LAND_CRUISER {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 220px;
+    left: 800px;
+    visibility: hidden;
+}
+
+#VOLKSWAGEN_GOLF {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 220px;
+    left: 800px;
+    visibility: hidden;
+}
+
+rect {
+    stroke-width: 2;
+    stroke: white;
+}
+
+text {
+    font-family: 'Marvel';
+}
+
+#header {
+    font-size: 40px;
+    margin: 30px 30px -20px;
+    font-family: 'Marvel';
+}
+
+#subheader {
+    margin: 30px 30px;
+    font-family: 'Marvel';
+}
+
+#mySVG {
+    margin: 0px 30px;
+}
+
+p {
+    margin: 0px 30px;
+}
+
+.button {
+    background-color: #ccc;
+    border-color: #ccc;
+    border-radius: 6px;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
