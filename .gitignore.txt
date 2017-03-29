@@ -121,3 +121,4 @@ sftp-config.json
 # Temporary data
 .ipynb_checkpoints/
 
+.DS_Store
