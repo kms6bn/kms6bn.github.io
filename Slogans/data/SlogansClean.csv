@@ -174,26 +174,26 @@ Year,Slogan,Candidate,NameIncluded,Rhymes,Party,Won,Unique,Same,America
 2012,Restore America Now,Ron Paul,N,N,Republican,N,0,0,1
 2012,Citizenship Matters,Virgil Goode,N,N,Constitution,N,1,0,0
 2016,Heal. Inspire. Revive.,Ben Carson,N,N,Republican,N,1,0,0
-2016,A Future To Believe In,Bernie Sanders,N,N,Democrat,TBD,0,0,0
-2016,Feel The Bern,Bernie Sanders,Y,N,Democrat,TBD,0,0,0
+2016,A Future To Believe In,Bernie Sanders,N,N,Democrat,N,0,0,0
+2016,Feel The Bern,Bernie Sanders,Y,N,Democrat,N,0,0,0
 2016,"Tanned, Rested, Ready.",Bobby Jindal,N,N,Republican,N,0,0,0
 2016,New Possibilities. Real Leadership.,Carly Fiorina,N,N,Republican,N,0,0,0
 2016,Telling it like it is.,Chris Christie,N,N,Republican,N,0,0,0
-2016,Make America Great Again,Donald Trump,N,N,Republican,TBD,0,1,1
-2016,Hillary For America,Hillary Clinton,Y,N,Democrat,TBD,0,1,1
-2016,Fighting for us,Hillary Clinton,N,N,Democrat,TBD,0,0,0
-2016,I'm With Her,Hillary Clinton,N,N,Democrat,TBD,0,0,0
+2016,Make America Great Again,Donald Trump,N,N,Republican,Y,0,1,1
+2016,Hillary For America,Hillary Clinton,Y,N,Democrat,N,0,1,1
+2016,Fighting for us,Hillary Clinton,N,N,Democrat,N,0,0,0
+2016,I'm With Her,Hillary Clinton,N,N,Democrat,N,0,0,0
 2016,Jeb!,Jeb Bush,Y,N,Republican,N,0,0,0
 2016,Jeb can fix it,Jeb Bush,Y,N,Republican,N,0,0,0
 2016,All in for Jeb,Jeb Bush,Y,N,Republican,N,0,0,0
 2016,Right to Rise,Jeb Bush,N,N,Republican,N,0,0,0
-2016,It's in our hands,Jill Stein,N,N,Green,TBD,0,0,0
-2016,Kasich For America,John Kasich,Y,N,Republican,TBD,0,1,1
+2016,It's in our hands,Jill Stein,N,N,Green,N,0,0,0
+2016,Kasich For America,John Kasich,Y,N,Republican,N,0,1,1
 2016,A New American Century,Marco Rubio,N,N,Republican,N,0,0,1
 2016,From Hope to Higher Ground,Mike Huckabee,N,N,Republican,N,0,0,0
 2016,Defeat the Washington Machine. Unleash the American Dream.,Rand Paul,N,N,Republican,N,0,0,1
-2016,Courageous Conservatives,Ted Cruz,N,N,Republican,TBD,0,0,0
-2016,Reigniting the Promise of America,Ted Cruz,N,N,Republican,TBD,0,0,1
-2016,TRUSTED,Ted Cruz,Y,N,Republican,TBD,0,0,0
-2016,A Time for Truth,Ted Cruz,N,N,Republican,TBD,0,0,0
-2016,Defeat the Washington Cartel,Ted Cruz,N,N,Republican,TBD,0,0,0
+2016,Courageous Conservatives,Ted Cruz,N,N,Republican,N,0,0,0
+2016,Reigniting the Promise of America,Ted Cruz,N,N,Republican,N,0,0,1
+2016,TRUSTED,Ted Cruz,Y,N,Republican,N,0,0,0
+2016,A Time for Truth,Ted Cruz,N,N,Republican,N,0,0,0
+2016,Defeat the Washington Cartel,Ted Cruz,N,N,Republican,N,0,0,0
